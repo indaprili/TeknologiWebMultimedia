@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage DATA ENTRY</title>
+</head>
+<body>
+    <h1>Homepage DATA ENTRY</h1>
+    <form action="#" method="post">
+        <h2>Tampilan:</h2>
+        <ol>
+            <li>Nama : <input type="text" name="nama"></li>
+            <li>NRP : <input type="text" name="nrp"></li>
+            <li>Kelas : <input type="text" name="kelas"></li>
+            <li>Jenis Kelamin : 
+                <input type="radio" name="jenis_kelamin" value="pria"> Pria
+                <input type="radio" name="jenis_kelamin" value="wanita"> Wanita
+            </li>
+            <li>Agama : 
+                <select name="agama">
+                    <option value="ISLAM">ISLAM</option>
+                    <option value="KRISTEN">KRISTEN</option>
+                    <option value="HINDU">HINDU</option>
+                    <option value="BUDHA">BUDHA</option>
+                    <option value="KONGHUCU">KONGHUCU</option>
+                </select>
+            </li>
+            <li>Tempat/Tanggal Lahir : <input type="text" name="tempat_tanggal_lahir"></li>
+            <li>Alamat : <br><textarea name="alamat" rows="4" cols="50"></textarea></li>
+            <li>Riwayat Pendidikan :
+                <ol type="A">
+                    <li>SD : <input type="text" name="riwayat_sd"></li>
+                    <li>SMP : <input type="text" name="riwayat_smp"></li>
+                    <li>SMA : <input type="text" name="riwayat_sma"></li>
+                </ol>
+            </li>
+            <li>Email : <input type="text" name="email"></li>
+            <li>Homepage : <input type="text" name="homepage"></li>
+            <li>Hobby : <br><textarea name="hobby" rows="4" cols="50"></textarea></li>
+            <li>Interest : <br>
+                <input type="checkbox" name="interest[]" value="komputer"> Komputer
+                <input type="checkbox" name="interest[]" value="sport"> Sport
+                <input type="checkbox" name="interest[]" value="travelling"> Travelling
+                <input type="checkbox" name="interest[]" value="writing"> Writing
+                <input type="checkbox" name="interest[]" value="reading"> Reading
+            </li>
+        </ol>
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
